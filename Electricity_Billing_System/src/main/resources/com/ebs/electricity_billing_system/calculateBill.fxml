@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ebs.electricity_billing_system.CalculateBillController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="125.0" prefWidth="900.0" style="-fx-background-color: #77acd1;" text="Calculate Bill">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="214.0" text="Customer Name">
+         <font>
+            <Font name="ArtifaktElement-Black" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="258.0" text="Address">
+         <font>
+            <Font name="ArtifaktElement-Black" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="303.0" text="Meter Number">
+         <font>
+            <Font name="ArtifaktElement-Black" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="350.0" text="Rate">
+         <font>
+            <Font name="ArtifaktElement-Black" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="397.0" text="Units Consumed">
+         <font>
+            <Font name="ArtifaktElement-Black" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customer_name" editable="false" layoutX="463.0" layoutY="210.0" prefWidth="250.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="address_text" editable="false" layoutX="463.0" layoutY="254.0" prefWidth="250.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="meter_number_text" editable="false" layoutX="463.0" layoutY="299.0" prefWidth="250.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="rate_text" layoutX="463.0" layoutY="346.0" prefWidth="250.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="usage_text" layoutX="463.0" layoutY="393.0" prefWidth="250.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="submit_button" layoutX="237.0" layoutY="512.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="162.0" style="-fx-background-radius: 30px; -fx-background-color: #77acd1;" text="Submit">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="cancel_button" layoutX="502.0" layoutY="512.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="162.0" style="-fx-background-radius: 30px; -fx-background-color: #77acd1;" text="Back">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="218.0" layoutY="443.0" text="Balance">
+         <font>
+            <Font name="ArtifaktElement-Black" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="balance_text" layoutX="463.0" layoutY="439.0" prefWidth="250.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

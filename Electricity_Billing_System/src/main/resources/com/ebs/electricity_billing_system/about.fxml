@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ebs.electricity_billing_system.AboutController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="125.0" prefWidth="900.0" style="-fx-background-color: #77acd1;" text="About">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="back_button" layoutX="369.0" layoutY="486.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="162.0" style="-fx-background-radius: 30px; -fx-background-color: #77acd1;" text="Back">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextArea editable="false" layoutX="175.0" layoutY="160.0" prefHeight="280.0" prefWidth="550.0" text="This electricity billing system is created with the intention of aiding&#10;electricity companies with keeping track and billing its customers.&#10;It has a simple design that lets the user easily add and remove&#10;customers with the addition of billing and depositing into &#10;customer accounts.">
+         <font>
+            <Font name="ArtifaktElement-Medium" size="16.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
